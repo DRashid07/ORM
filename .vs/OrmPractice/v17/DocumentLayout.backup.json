@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ORM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1757C2E9-61C3-4E57-B674-391B9CD916A2}|OrmPractice\\OrmPractice.csproj|c:\\users\\user\\desktop\\orm\\ormpractice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1757C2E9-61C3-4E57-B674-391B9CD916A2}|OrmPractice\\OrmPractice.csproj|solutionrelative:ormpractice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1757C2E9-61C3-4E57-B674-391B9CD916A2}|OrmPractice\\OrmPractice.csproj|c:\\users\\user\\desktop\\orm\\ormpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1757C2E9-61C3-4E57-B674-391B9CD916A2}|OrmPractice\\OrmPractice.csproj|solutionrelative:ormpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1757C2E9-61C3-4E57-B674-391B9CD916A2}|OrmPractice\\OrmPractice.csproj|c:\\users\\user\\desktop\\orm\\ormpractice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1757C2E9-61C3-4E57-B674-391B9CD916A2}|OrmPractice\\OrmPractice.csproj|solutionrelative:ormpractice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1757C2E9-61C3-4E57-B674-391B9CD916A2}|OrmPractice\\OrmPractice.csproj|c:\\users\\user\\desktop\\orm\\ormpractice\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ORM\\OrmPractice\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "OrmPractice\\Data\\AppDbContext.cs",
@@ -46,20 +46,20 @@
               "RelativeToolTip": "OrmPractice\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T08:21:07.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T08:21:07.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ORM\\OrmPractice\\Program.cs",
               "RelativeDocumentMoniker": "OrmPractice\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\ORM\\OrmPractice\\Program.cs",
               "RelativeToolTip": "OrmPractice\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvykAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvzQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T08:17:53.014Z"
+              "WhenOpened": "2026-01-04T08:17:53.014Z",
+              "EditorCaption": ""
             }
           ]
         }
