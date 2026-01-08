@@ -36,7 +36,10 @@
             }
             using (var context = new Data.AppDbContext())
             {
-                var student = context.Students.Where(context => context.Age > 21 && context.Contains("a").ToList());
+                
+                var students = context.Students
+                    .Where(s => s.Age > 21 && s.Name.Contains("a"))
+                    .ToList();
             }
             using (var context = new Data.AppDbContext())
             {
@@ -50,4 +53,4 @@
     }
 }
 
-//...new
+
