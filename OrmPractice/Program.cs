@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            
+
             using (var coxtext = new Data.AppDbContext())
             {
                 var newStudent = new Models.Student
@@ -12,7 +12,7 @@
                     Name = "John Doe",
                     Description = "A new student",
                     Age = 20
-                };  
+                };
                 coxtext.Students.Add(newStudent);
                 coxtext.SaveChanges();
             }
@@ -36,7 +36,7 @@
             }
             using (var context = new Data.AppDbContext())
             {
-                
+
                 var students = context.Students
                     .Where(s => s.Age > 21 && s.Name.Contains("a"))
                     .ToList();
@@ -47,6 +47,18 @@
                 foreach (var student in students)
                 {
                     Console.WriteLine($"Id: {student.Id}, Name: {student.Name}, Description: {student.Description}, Age: {student.Age}");
+                }
+            }
+            using (var context = new Data.AppDbContext())
+            {
+                var student = context.Students.FirstOrDefault(s => s.Name == "John Doe");
+                if (student != null)
+                {
+                    Console.WriteLine($"Found student: {student.Name}, Age: {student.Age}");
+                }
+                else
+                {
+                    Console.WriteLine("Student not found.");
                 }
             }
         }
